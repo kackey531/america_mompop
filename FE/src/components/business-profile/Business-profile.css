@@ -1,0 +1,95 @@
+.business-profile-page,
+.address,
+.dropdown-item.address.active,
+.dropdown-item.address:active,
+.dropdown-item.address:hover,
+.address:hover {
+  font-size: 14px;
+  color: #000;
+  background: transparent;
+}
+
+.address {
+  display: flex;
+}
+
+.dropdown-item.address {
+  padding: 12px;
+}
+
+.business-profile-page .tel {
+  font-size: inherit;
+  color: inherit;
+}
+
+.settings,
+.settings:hover,
+.settings:focus {
+  background: #FFB648;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 28px;
+  white-space: nowrap;
+}
+
+.orange-link,
+.orange-link:hover,
+.orange-link:active,
+.orange-link:focus {
+  color: #FFB648;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+@media all and (max-width: 567px) {
+  .orange-link,
+  .orange-link:hover,
+  .orange-link:active,
+  .orange-link:focus{
+    margin-bottom: 10px;
+  }
+  .business-profile-page{
+    padding-bottom: 20px;
+  }
+}
+.business-profile-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.business-profile-image img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.business-profile-name,
+.business-profile-name:hover,
+.business-profile-name:focus,
+.business-profile-name:active,
+.business-profile-url,
+.business-profile-url:hover,
+.business-profile-url:active,
+.business-profile-url:focus {
+  color: #000
+}
+
+.business-profile-name {
+  font-weight: 700;
+}
+
+i.business-profile-icon {
+  color: #D0D0D0;
+  margin-right: 10px;
+}
+
+@media all and (max-width: 567px){
+  .settings,
+  .settings:hover,
+  .settings:focus{
+    width: 100%;
+    margin-top: 10px;
+  }
+}

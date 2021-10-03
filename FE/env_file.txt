@@ -1,0 +1,4 @@
+//PORT=3005
+//REACT_APP_BASEURL=http://127.0.0.1:4000
+//# stripe_key=ca_HIyuGdrBTF1PqXUqlQ7WmayIIeVo48Y3  testkey
+//stripe_key=ca_HIyuXZ5dqhNtE5ZgC2qG7zcOlOrbzXu1

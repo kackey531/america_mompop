@@ -1,0 +1,41 @@
+.details-table tr td {
+  color: #000;
+}
+.details-table tr td,
+.details-table tr th {
+  font-size: 12px;
+  padding: 0 5px;
+  min-height:35px;
+  height: 35px;
+}
+.details-table tr th {
+  color: #717171;
+}
+
+.details-table tr td:first-of-type {
+  font-weight: 700;
+}
+.details-table tbody tr:hover {
+  background: linear-gradient(86.04deg, rgba(255, 177, 69, 0.1) 0.72%, rgba(245, 96, 64, 0.1) 100.72%);
+  cursor: pointer;
+}
+.details-table tr:hover .user__image {
+  background: #727272;
+}
+
+.details-table tr td {
+  border-top: 1px solid #dee2e6;
+}
+
+.details-table  tr:hover .user__image i {
+  color: #eae1d3;
+}
+
+.details-table  tr:hover .table-icon-btn i {
+  color: #FFB648;
+}
+
+
+.details-table  tr:hover .table-icon-btn i.table-icon-delete {
+  color: #F57474
+}

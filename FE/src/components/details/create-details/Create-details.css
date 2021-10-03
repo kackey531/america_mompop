@@ -1,0 +1,21 @@
+.create-details-container {
+  background: #F6F6F6;
+  padding: 0 0 23px;
+}
+
+.create-details-container__header {
+  border: 1px solid #E9E9E9;
+  padding: 13px 20px;
+}
+
+.close-btn {
+  color: rgba(31, 31, 31, 0.27);
+  font-size: 12px;
+}
+
+.create-details-container__header__title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1F1F1F;
+}

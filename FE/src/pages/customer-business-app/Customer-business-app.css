@@ -1,0 +1,27 @@
+.customer-business-container__desc {
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.customer-business-container__title{
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.customer-business-container__title,
+.customer-business-container__desc > span {
+  font-weight: 700;
+}
+
+@media all and (max-width: 767px) {
+  .customer-business-container__desc {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .customer-business-container__title{
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
